@@ -17,5 +17,7 @@ www.namecheap.com
 - "python3 -m http.server" na console da instancia para identificar qual porta uma aplicação está rodando.
 
 ### Loadbalancer - Criando um ambiente com alta disponibilidade.
-
+Devemos criar um loadbalance e vinvular as instancias para ele poder cuidar.
+Vinculamos um health check pra validar se está ativo.
+É possivel olhar metricas e também lancar um email caso x instancias caiam.
 
